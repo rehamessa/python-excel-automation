@@ -58,10 +58,15 @@ report_sheet['B3']=highest_sales
 report_sheet['A4']='average sales'
 report_sheet['B4']=average_sale
 
-report_sheet['A4']='product count'
-report_sheet['B4']=product_count
+report_sheet['A5']='product count'
+report_sheet['B5']=product_count
 
 
+#-------------------------------------------------------
+#saving the report
+#-------------------------------------------------------
+
+report_workbook.save("sales_report.xlsx")
 
 
 
